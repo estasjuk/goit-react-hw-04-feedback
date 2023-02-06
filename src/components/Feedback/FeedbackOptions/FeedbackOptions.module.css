@@ -1,0 +1,23 @@
+.btn {
+  width: 80px;
+  height: 32px;
+  background-color: darkcyan;
+  border: none;
+  border-radius: 6px;
+  font-style: Roboto;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #fff;
+  box-shadow: 2px 2px 2px 0px rgb(108, 108, 108);
+  cursor: pointer;
+}
+
+.btn:hover,
+.btn:focus {
+  background-color: rgb(2, 63, 63);
+}
+
+.btn:not(:last-child) {
+  margin-right: 10px;
+}
+
